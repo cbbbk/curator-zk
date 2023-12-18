@@ -1,0 +1,15 @@
+server:
+  port: 8080
+logging:
+  level:
+    com.whh: info
+  pattern:
+    dateformat: HH:mm:ss
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/exams
+mybatis-plus:
+  type-aliases-package: com.whh.curator.po
